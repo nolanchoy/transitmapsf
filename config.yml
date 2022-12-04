@@ -2,3 +2,71 @@ baseURL: "/"
 languageCode: en-us
 title: Transit Map SF
 theme: "hugo-tranquilpeak-theme"
+
+menu:
+  main:
+    - weight: 1
+      identifier: home
+      name: "Home"
+      pre: <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      url: /
+    - weight: 2
+      identifier: categories
+      name: "Categories"
+      pre: >-
+        <i class="sidebar-button-icon fas fa-lg fa-bookmark"
+        aria-hidden="true"></i>
+      url: /categories
+    - weight: 3
+      identifier: tags
+      name: "Tags"
+      pre: <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      url: /tags
+    - weight: 4
+      identifier: archives
+      name: "Archives"
+      pre: >-
+        <i class="sidebar-button-icon fas fa-lg fa-archive"
+        aria-hidden="true"></i>
+      url: /archives
+    - weight: 5
+      identifier: about
+      name: "About"
+      pre: >-
+        <i class="sidebar-button-icon fas fa-lg fa-question"
+        aria-hidden="true"></i>
+      url: /#about
+  links:
+    - weight: 1
+      identifier: github
+      name: "GitHub"
+      pre: >-
+        <i class="sidebar-button-icon fab fa-lg fa-github"
+        aria-hidden="true"></i>
+      url: 'https://github.com/kakawait'
+    - weight: 2
+      identifier: stackoverflow
+      name: "Stack Overflow"
+      pre: >-
+        <i class="sidebar-button-icon fab fa-lg fa-stack-overflow"
+        aria-hidden="true"></i>
+      url: 'https://stackoverflow.com/users/636472/kakawait'
+  misc:
+    - weight: 1
+      identifier: rss
+      name: "RSS"
+      pre: <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      url: /index.xml
+params:
+  description: Hugo tranquilpeak theme demo
+  syntaxHighlighter: highlight.js
+  clearReading: true
+  hierarchicalCategories: true
+  sidebarBehavior: 1
+  coverImage: images/cover.jpg
+  imageGallery: true
+  thumbnailImage: true
+  thumbnailImagePosition: bottom
+  autoThumbnailImage: true
+  customJS:
+    - src: >-
