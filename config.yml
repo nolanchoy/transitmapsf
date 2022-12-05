@@ -14,7 +14,7 @@ menu:
 author:
   name: "Transit Map SF"
   picture: 'images/icon.png'
-  bio: "A map to track transit breakdowns and time estimations. Data is refreshed every 10 minutes"
+  bio: "Live tracking transit breakdowns and resolution time estimations. Data is updated every 10 minutes. Incidents will remain on the map for 3 hours."
 
 params:
 
