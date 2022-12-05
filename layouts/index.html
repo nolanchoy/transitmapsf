@@ -9,9 +9,7 @@
                {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
 
-        <div style = "align-content: center; padding-left: 2%; padding-right: 2%;">
-          <iframe src="transit_event_map.html" height="800px" width="100%" frameBorder="0" title="Iframe Example"></iframe>
-        </div>
+
         {{ partial "footer.html" . }}
       </div>
     </div>
