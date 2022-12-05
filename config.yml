@@ -17,6 +17,7 @@ author:
   bio: "A map to track transit breakdowns and time estimations. Data is refreshed every 10 minutes"
 
 params:
+
   description: Hugo tranquilpeak theme demo
   syntaxHighlighter: highlight.js
   clearReading: true
@@ -29,3 +30,4 @@ params:
   autoThumbnailImage: true
   customJS:
     - src: >-
+  favicon: "/images/favicon.png"
