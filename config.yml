@@ -22,7 +22,7 @@ params:
   syntaxHighlighter: highlight.js
   clearReading: true
   hierarchicalCategories: true
-  sidebarBehavior: 4
+  sidebarBehavior: 2
   coverImage: 'images/cover_image.png'
   imageGallery: true
   thumbnailImage: true
