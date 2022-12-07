@@ -7,11 +7,15 @@ showPagination: false
 showSocial: false
 comments: false
 ---
+{{< alert info>}}
+Servers may occasionally undergo maintenance.
+{{< /alert >}}
+
 ## About the site
 This site was created by Nolan Choy to track and visualize transit service disruptions in San Francisco and to offer best estimates for service resumption times. You can get in touch with me at transitmapsf@gmail.com.
 
 ## About the data
-Data is pulled from SFMTA's twitter feed via Twitter's API every 10 minutes. Raw data is in the form of natural language text which is then analyzed for service line, line direction, and interruption location. This information is then visualized on a map using public transit line data from SF Gov's Open Data.
+Data is pulled from SFMTA's twitter feed via Twitter's API every 10 minutes. Raw data, in the form of natural language text, is analyzed for service line, line direction, and interruption location. This information is then visualized on a map using public transit line data from SF Gov's Open Data.
 
 {{< image classes="fancybox fig-50" src="/images/map-demo1.png" thumbnail="/images/map-demo1.png" >}}
 {{< image classes="fancybox fig-50 clear" src="/images/map-demo.png" thumbnail="/images/map-demo.png" >}}

@@ -36,3 +36,8 @@ params:
   customJS:
     - src: >-
   favicon: "/images/favicon.png"
+  header:
+    rightLink:
+      class: ''
+      icon: ''
+      url: /#about
