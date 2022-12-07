@@ -7,7 +7,7 @@ menu:
   main:
     - weight: 1
       identifier: home
-      name: "Service Map"
+      name: "Live Service Map"
       pre: <i class="sidebar-button-icon fas fa-lg fa-map" aria-hidden="true"></i>
       url: "/"
     - weight: 2
