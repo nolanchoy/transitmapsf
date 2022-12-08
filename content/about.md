@@ -8,7 +8,7 @@ showSocial: false
 comments: false
 ---
 {{< alert info>}}
-Servers may occasionally undergo maintenance.
+Servers may undergo occasional maintenance.
 {{< /alert >}}
 
 ## About the site
@@ -23,7 +23,7 @@ Data is pulled from SFMTA's twitter feed via Twitter's API every 10 minutes. Raw
 ## About the models
 Three different models are incorporated to ultimately predict resolution times. A **Named Entity Recognition** (NER) model is used to extract incidents from tweet text. A **Support Vector Machine** (SVM) classifier is used to place the extracted event into pre-defined classes. Finally, a **prediction** model is used to predict the estimated service interruption resolution time.
 
-## Messy data
+## Data Considerations
 To highlight some challenges with SFMTA tweet data:
 * Origin tweets are an engineered feature due to the API only reporting the retweet ID and not the root tweet ID
   * SFMTA tweets are essentially tweet chains so tracking the original tweet is important as it typically provides all the information for affected lines
