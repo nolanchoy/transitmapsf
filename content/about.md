@@ -7,12 +7,15 @@ showPagination: false
 showSocial: false
 comments: false
 ---
-{{< alert info>}}
+{{< alert warning>}}
 Servers may undergo occasional maintenance.
+{{< /alert >}}
+{{< alert info>}}
+To see specific lines, use the layers menu in the top-right of the map. Deselect "Show All" then select your line.
 {{< /alert >}}
 
 ## About the site
-This site was created by Nolan Choy to track and visualize transit service disruptions in San Francisco and to offer best estimates for service resumption times. You can get in touch with me at transitmapsf@gmail.com.
+This site was created by Nolan Choy to track and visualize transit service disruptions in San Francisco and to offer best estimates for service resumption times. Essentially answering, "Is my Muni delayed?", "Where?", and "When will it be back up?" You can get in touch with me at transitmapsf@gmail.com.
 
 ## About the data
 Data is pulled from SFMTA's twitter feed via Twitter's API every 10 minutes. Raw data, in the form of natural language text, is analyzed for service line, line direction, and interruption location. This information is then visualized on a map using public transit line data from SF Gov's Open Data.
