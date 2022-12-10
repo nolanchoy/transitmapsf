@@ -11,7 +11,7 @@ comments: false
 Servers may undergo occasional maintenance.
 {{< /alert >}}
 {{< alert info>}}
-To see specific lines, use the layers menu in the top-right of the map. Deselect "Show All" then select your line.
+To view specific lines, use the layers menu in the top-right of the map. Deselect "Show All" then select your line.
 * **Green** lines indicate working service. 
 * **Orange** lines indicate recently resolved service interruptions. 
 * **Red** lines indicate ongoing service interruptions.
